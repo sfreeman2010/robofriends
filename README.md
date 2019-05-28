@@ -4,9 +4,9 @@
 
 This project was written in React that was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) using NPM.
 
-Robofriends uses an API request, using https://jsonplaceholder.typicode.com/users to grab a dummy list of users as this site let's us mock API calls to test functionality, and creates Robot cards from the user's name and email with a picture.  The picture is also an API call to https://robohash.org that creates a random robot picture of any input text as the random seed.  Robofriends then uses the name of the user to create their own random card.
+Robofriends uses an API request, using https://jsonplaceholder.typicode.com/users to grab a dummy list of users as this site let's us mock API calls to test functionality, and creates Robot cards from the user's name and email with a randomly generated picture.  Robotfriends then uses an API call to https://robohash.org, which creates a random robot picture of any input text as the random seed.  The name of the user is then passed to create a user's own random robot picture for their card.
 
-After Robofriends populates all users with their own card, a user can then type text into the search bar.  The search bar will then reduce the list depending if the corresponding string is included in any of the user's names.
+After Robofriends populates all users with their own card, a user using Robofriends can then type text into the search bar.  The search bar will then reduce the list depending if the corresponding string is included in any of the user's names.
 
 The Information below is generated to README.md when using Create-React-App from NPM:
 
